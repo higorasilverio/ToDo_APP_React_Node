@@ -1,10 +1,19 @@
-import 'modules/bootstrap/dist/css/bootstrap.min.css'
-import 'modules/font-awesome/css/font-awesome.min.css'
-
 import React from 'react'
 
-export default props => (
-    <div className="container">
-        <h1>Test</h1>
+import './App.css'
+
+import Todo from '../todo/Todo'
+import About from '../about/About'
+import Menu from '../template/Menu'
+
+const App = props => {
+  return (
+    <div className="container-app">
+      <Menu />
+      <About />
+      <Todo />
     </div>
-)
+  )
+}
+
+export default App;

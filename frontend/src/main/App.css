@@ -1,0 +1,6 @@
+.container-app {
+    margin: 1rem 10px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
