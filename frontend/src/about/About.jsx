@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { Component } from 'react'
+import PageHeader from '../template/PageHeader'
 
-const About = props => (
-    <div>
-        <h1>
-            About
-        </h1>
-    </div>
-)
-
-export default About
+export default class Todo extends Component {
+    render() {
+        return (
+            <div>
+                <PageHeader name="About" />
+            </div>
+        )
+    }
+}
