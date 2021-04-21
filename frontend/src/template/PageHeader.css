@@ -1,0 +1,11 @@
+.pageHeader {
+    margin-top: 1vh;
+}
+
+.pageHeader .name {
+    font-size: 1.6rem;
+}
+
+.pageHeader .small {
+    font-size: .95rem;
+}

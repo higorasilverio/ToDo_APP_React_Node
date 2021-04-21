@@ -1,0 +1,14 @@
+.table-body .table-row .done {
+    text-decoration: line-through;
+    color: #777;
+}
+
+.table-body .table-row .table-data-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.table-actions {
+    width: 110px;
+}

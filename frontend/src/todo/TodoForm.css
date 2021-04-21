@@ -1,0 +1,20 @@
+.todo-form .col-input, .todo-form .col-button {
+    margin: .5vh 0 1vh 0;
+}
+
+.todo-form .col-input {
+    padding: 0 !important;
+}
+
+.todo-form .col-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .todo-form .col-button {
+        padding: 0 !important;
+    }
+    
+}

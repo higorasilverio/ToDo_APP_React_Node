@@ -1,11 +1,13 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
 
+import './PageHeader.css'
+
 const PageHeader = props => (
-    <Card style={{marginTop: '1vh'}}>
-        <Card.Header>{props.name}</Card.Header>
+    <Card className="pageHeader">
+        <Card.Header className="name">{props.name}</Card.Header>
         <Card.Body>
-            <Card.Title>{props.small}</Card.Title>
+            {props.children}
         </Card.Body>
     </Card>
 )
