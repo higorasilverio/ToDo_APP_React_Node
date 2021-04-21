@@ -2,7 +2,7 @@
 
 ## _To do application made with React JS and Node JS_
  
-## Running backend application
+### Running backend application
 
 ```sh
 cd backend
@@ -10,7 +10,7 @@ npm run pm2
 ```
 > Note: `npm run pm2` runs backend application permanently at 3003 port
 
-## Running backend application
+### Running backend application
 
 ```sh
 cd frontend
