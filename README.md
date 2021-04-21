@@ -6,6 +6,7 @@
 
 ```sh
 cd backend
+npm i
 npm run pm2
 ```
 > Note: `npm run pm2` runs backend application permanently at 3003 port
@@ -14,6 +15,7 @@ npm run pm2
 
 ```sh
 cd frontend
+npm i
 npm start
 ```
 > Note: `npm start` runs frontend application in development mode at 3000 port
